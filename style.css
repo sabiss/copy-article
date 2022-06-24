@@ -1,0 +1,119 @@
+body{
+    color: #111111;
+    padding: 50px 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+header{
+    border-bottom: 2px solid #B0AFAF;
+}
+.title{
+    font-size: 56px;
+    margin-bottom: 50px;
+    line-height: 64px;
+}
+.sub-title{
+    font-weight: 400;
+    color:#555555;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 28px;
+}
+.fontWeight400, main{
+    font-weight: 400;
+}
+.author, .date{
+    margin-bottom: 30px;
+}
+main{
+    line-height: 32px;
+    color: #333333;
+    padding: 60px 80px;
+    font-size: 20px;
+}
+.paragraph{
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+.red-text{
+    color: #A6130A;
+    font-weight: 700;
+}
+ul{
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+li{
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+main > p:nth-child(5){
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.second-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #111111;
+    margin-bottom: 18px;
+}
+.report{
+    margin-top: 22px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 600;
+    border-left: 3px solid #A6130A;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1100px){
+    body{
+        padding: 20px 35px;
+    }
+    .title{
+        font-size: 32px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+    .author, .date{
+        font-size: 18px;
+    }
+    main{
+        padding: 20px 5px;
+        text-align: justify;
+    }
+    .second-title{
+        font-size: 30px;
+    }
+    .report{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width:2299px){
+    .sub-title{
+        font-size: 25px;
+    }
+    .author, .date{
+        font-size: 20px;
+    }
+    main{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 2300px){
+    .sub-title{
+        font-size: 25px;
+    }
+    .author, .date{
+        font-size: 22px;
+    }
+    main{
+        font-size: 29px;
+    }
+    .report{
+        font-size: 35px;
+    }
+}
